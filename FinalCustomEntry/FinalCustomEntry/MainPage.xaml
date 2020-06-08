@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:FinalCustomEntry"
+             mc:Ignorable="d"
+             x:Class="FinalCustomEntry.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+        <!-- Place new controls here -->
+        <Frame CornerRadius="18" Padding="0,0,0,0">
+            <local:CustomEntry
+                
+                             IsNumeric="True"
+                             CornerRadius="18"   
+                             BorderColor="#000000"     
+                             BorderWidth="5"
+                             HorizontalTextAlignment="Center" 
+                             BackgroundColor="#15171d"
+                             FontSize="35"  
+                             TextColor="#ffffff"  
+                             FontAttributes="Bold"  
+                             WidthRequest="200"
+                             TopPadding="50"
+                             LeftPadding="0"
+                             RightPadding="0"
+                         BottomPadding="0"
+                            
+                               />
+        </Frame>
+
+        <Frame CornerRadius="40" Padding="0,0,0,0">
+            <local:CustomEntry
+                FontFamily="Arial"
+                             IsNumeric="True"
+                             CornerRadius="40"   
+                             BorderColor="Red"     
+                             BorderWidth="10"
+                             HorizontalTextAlignment="Center" 
+                             BackgroundColor="SkyBlue"
+                             FontSize="35"  
+                             TextColor="Black"  
+                             FontAttributes="Bold"  
+                             WidthRequest="220"
+                             TopPadding="10"
+                             LeftPadding="10"
+                             RightPadding="10"
+                         BottomPadding="10"
+                               />
+        </Frame>
+
+        <Frame CornerRadius="18" Padding="0,0,0,0">
+            <local:CustomEntry  
+                             CornerRadius="18"   
+                             BorderColor="#000000"     
+                             BorderWidth="5"
+                             HorizontalTextAlignment="Center" 
+                             BackgroundColor="#15171d"
+                             FontSize="35"  
+                             TextColor="#ffffff"  
+                             FontAttributes="Bold"  
+                             WidthRequest="200" 
+                               />
+        </Frame>
+
+        <Frame CornerRadius="18" Padding="0,0,0,0">
+            <local:CustomEntry
+                             CornerRadius="18"   
+                             BorderColor="#000000"     
+                             BorderWidth="5"
+                             HorizontalTextAlignment="Center" 
+                             BackgroundColor="#2f313d"
+                             FontSize="25"  
+                             TextColor="#97989e"  
+                             FontAttributes="Italic"  
+                             WidthRequest="100"
+                            IsMail="True"
+                />
+        </Frame>
+        
+        <Frame CornerRadius="18" Padding="0,0,0,0">
+        <local:CustomEntry
+            
+                             CornerRadius="18"   
+                             BorderColor="#000000"     
+                             BorderWidth="5"
+                             HorizontalTextAlignment="Center" 
+                             BackgroundColor="#2f313d"
+                             FontSize="25"  
+                             TextColor="#97989e"  
+                             FontAttributes="Italic"  
+                             WidthRequest="100"
+            RightPadding="60"
+            IsPasswordK="True"
+            Placeholder="Password"
+            PlaceholderColor="#97989e"
+          
+                />
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
